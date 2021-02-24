@@ -1,14 +1,14 @@
-$(document).ready(function() {
-    $("#one").submit(function(event){
-        event.preventDefault();
-        if($("input").val() ===""){
-          alert('enter a valid data')
-          return;
-        }
-          alert('Thank you for contacting us')
-        this.reset();
-      });
-    });
+$("#submit").click(function () {
+    var yourFullName = $("#name").val();
+    var yourEmail = $("#email").val();
+    var yourMessage = $("#exampleFormControlTextarea1").val();
+    if (yourFullName == '' || yourEmail == '' || yourMessage == '') {
+        alert("Please check the missing field(s)");
+    } else {
+        alert("Your message was sent successfully. Thanks!");
+    }
+    $("form").trigger("reset");
+})
 
 
 

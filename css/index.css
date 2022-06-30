@@ -191,19 +191,19 @@ button {
     background: linear-gradient(135deg,rgb(28, 3, 245)0% , rgb(1, 4, 22)100%);
   }
   .html{
-    width: 89%;
+    width: 70%;
     animation: html 3s;
   }
   .javascript {
-    width: 82%;
+    width: 75%;
     animation: javascript 3s;
   }
   .flask{
-    width: 60%;
+    width: 76%;
     animation: flask 3s;
   }
   .django{
-    width: 73%;
+    width: 80%;
     animation: django 3s;
   }
   @keyframes html{
